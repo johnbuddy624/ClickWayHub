@@ -80,14 +80,14 @@ body {
     background: red;
 }
 
-/* #btn4 {
+#btn4 {
     position: absolute;
     top: 70%;
     left: 75%;
     width: 10%;
     height: 6%;
     background: red;
-} */
+}
 
 /* Home Button Style */
 
@@ -118,4 +118,5 @@ p {
     width: 30%;
     text-align: center;
     font-size: 150%;
+
 }
