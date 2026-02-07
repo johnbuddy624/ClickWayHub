@@ -49,7 +49,7 @@ body {
     width: 110%;
     height: 20%;
     text-align: center;
-    background: darkblue;
+    background: #1F4FD8;
 }
 
   /* About Button */
@@ -120,4 +120,5 @@ p {
     font-size: 150%;
 
 }
+
 
