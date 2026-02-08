@@ -63,8 +63,8 @@ footer {
 #homep {
     position: relative;
     top: 4rem;
-    left: 16rem;
-    width: 20rem;
+    left: 24rem;
+    width: 15rem;
     font-size: 1.5rem;
 }
 
@@ -350,4 +350,5 @@ p {
 #btn8:hover {
     border: solid .60rem rgb(63, 63, 63);
     background-color: rgb(119, 119, 119);
+
 }
