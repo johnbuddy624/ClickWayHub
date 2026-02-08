@@ -367,20 +367,20 @@ p {
     padding: 0rem 0rem;  /* Spacing H x W */
 }
   /* Button Group Box */
-#sleepaidgrp {
+#skinbeautygrp {
   position: relative;
   display: flex;
   justify-content: center;
   gap: .2rem;
 }
-  /* VivaSlim Button */
+  /* Synerva Button */
 #btn9 {
     position: relative;
     text-wrap: calc();
     padding: 5rem 5rem;  /* Image Size H x W */
     border: solid .50rem rgb(165, 165, 165);
     border-radius: 2rem;
-    background-image: url("vivaslim.webp");
+    background-image: url("synerva.png");
     background-size: cover;
     cursor: pointer;
 }
@@ -389,7 +389,7 @@ p {
     background-color: rgb(119, 119, 119);
 }
 
-  /* Keyslim Button */
+  /* Hydrossential Button */
 #btn10 {
     position: relative;
     width: 1rem;
@@ -397,29 +397,11 @@ p {
     padding: 5rem 5rem;  /* Image Size */
     border-radius: 2rem;
     border: solid .50rem rgb(165, 165, 165);
-    background-image: url("keyslim.png");
+    background-image: url("hydrossention.png");
     background-size: cover;
     cursor: pointer;
 }
 #btn10:hover {
     border: solid .60rem rgb(63, 63, 63);
     background-color: rgb(119, 119, 119);
-}
-
-  /* Morning Fat Melter Button */
-#btn11 {
-    position: relative;
-    width: 1rem;
-    height: 1rem;
-    padding: 5rem 5rem;  /* Image Size */
-    border-radius: 2rem;
-    border: solid .50rem rgb(165, 165, 165);
-    background-image: url("morningfatmelter.png");
-    background-size: cover;
-    cursor: pointer;
-}
-#btn11:hover {
-    border: solid .60rem rgb(63, 63, 63);
-    background-color: rgb(119, 119, 119);
-
 }
