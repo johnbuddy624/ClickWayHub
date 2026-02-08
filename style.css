@@ -406,4 +406,38 @@ p {
     background-color: rgb(119, 119, 119);
 }
 
+                  /* Nail Beauty Button Styles */
 
+  /* Button Group Subtitle */
+#btnsubtitle4 {
+    position: relative;
+    top: 0rem;
+    padding: 0rem 0rem;  /* Spacing H x W */
+}
+  /* Button Group Paragraph */
+#btnparagraph4 {
+    position: relative;
+    padding: 0rem 0rem;  /* Spacing H x W */
+}
+  /* Button Group Box */
+#nailbeautygrp {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: .2rem;
+}
+  /* AppaNail Button */
+#btn11 {
+    position: relative;
+    text-wrap: calc();
+    padding: 5rem 5rem;  /* Image Size H x W */
+    border: solid .50rem rgb(165, 165, 165);
+    border-radius: 2rem;
+    background-image: url("appanail.png");
+    background-size: cover;
+    cursor: pointer;
+}
+#btn11:hover {
+    border: solid .60rem rgb(63, 63, 63);
+    background-color: rgb(119, 119, 119);
+}
