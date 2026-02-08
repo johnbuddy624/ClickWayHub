@@ -1,0 +1,353 @@
+/* Page Style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+   position: relative;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.6;
+   display: flex;
+   flex-direction: column;
+   color: #000000;
+   background-color: #b6b6b6;
+}
+
+header {
+    position: relative;
+    background-color: #838383;
+    color: rgb(196, 196, 196);
+    padding: 10px;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 600;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    background-color: #555555;
+    color: rgb(196, 196, 196);
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+                    /* Brain Health Button Styles */
+#homep {
+    position: relative;
+    top: 4rem;
+    left: 16rem;
+    width: 20rem;
+    font-size: 1.5rem;
+}
+
+#aboutusp {
+    top: 4rem;
+    left: 5rem;
+    width: 40rem;
+    font-size: 1.5rem;
+}
+
+p {
+    position: relative;
+    top: 0rem;
+    left: 5rem;
+    width: 40rem;
+    font-size: 1.2rem;
+}
+
+#disclaimer {
+    position: relative;
+    top: 4rem;
+    left: 5rem;
+    width: 40rem;
+    font-size: .62rem; 
+}
+
+  /* Button Group Subtitle */
+#btnsubtitle1 {
+    position: relative;
+    top: 2rem;
+    padding: 0rem 0rem;  /* Spacing H x W */
+}
+  /* Button Group Paragraph */
+#btnparagraph1 {
+    position: relative;
+    padding: 2rem 0rem;  /* Spacing H x W */
+}
+  /* Button Group Box */
+#thebrainsonggrp {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: .2rem;
+}
+  /* The Brain Song Button */
+#btn1 {
+    position: relative;
+    text-wrap: calc();
+    padding: 5rem 5rem;  /* Image Size H x W */
+    border: solid .50rem rgb(165, 165, 165);
+    border-radius: 2rem;
+    background-image: url("thebrainsong.webp");
+    background-size: cover;
+    cursor: pointer;
+}
+#btn1:hover {
+    border: solid .60rem rgb(63, 63, 63);
+    background-color: rgb(119, 119, 119);
+}
+
+  /* Neuro Serge Button */
+#btn2 {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    padding: 5rem 5rem;  /* Image Size */
+    border-radius: 2rem;
+    border: solid .50rem rgb(165, 165, 165);
+    background-image: url("neuroserge.png");
+    background-size: cover;
+    cursor: pointer;
+}
+#btn2:hover {
+    border: solid .60rem rgb(63, 63, 63);
+    background-color: rgb(119, 119, 119);
+}
+
+  /* Neuro Prime Button */
+#btn3 {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    padding: 5rem 5rem;  /* Image Size */
+    border-radius: 2rem;
+    border: solid .50rem rgb(165, 165, 165);
+    background-image: url("neuroprime.avif");
+    background-size: cover;
+    cursor: pointer;
+}
+#btn3:hover {
+    border: solid .60rem rgb(63, 63, 63);
+    background-color: rgb(119, 119, 119);
+}
+
+                    /* Dental Health Button Styles */
+
+  /* Button Group Subtitle */
+#btnsubtitle2 {
+    position: relative;
+    top: 2rem;
+    padding: 0rem 0rem;  /* Spacing H x W */
+}
+  /* Button Group Paragraph */
+#btnparagraph2 {
+    position: relative;
+    padding: 2rem 0rem;  /* Spacing H x W */
+}
+  /* Button Group Box */
+#provadentgrp {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: .2rem;
+}
+  /* Provadent Button */
+#btn4 {
+    position: relative;
+    text-wrap: calc();
+    padding: 5rem 5rem;  /* Image Size H x W */
+    border: solid .50rem rgb(165, 165, 165);
+    border-radius: 2rem;
+    background-image: url("provadent.png");
+    background-size: cover;
+    cursor: pointer;
+}
+#btn4:hover {
+    border: solid .60rem rgb(63, 63, 63);
+    background-color: rgb(119, 119, 119);
+}
+
+  /* Biodentex Button */
+#btn5 {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    padding: 5rem 5rem;  /* Image Size */
+    border-radius: 2rem;
+    border: solid .50rem rgb(165, 165, 165);
+    background-image: url("biodentext.png");
+    background-size: cover;
+    cursor: pointer;
+}
+#btn5:hover {
+    border: solid .60rem rgb(63, 63, 63);
+    background-color: rgb(119, 119, 119);
+}
+
+                   /* Sleep Aid Button Styles */
+
+  /* Button Group Subtitle */
+#btnsubtitle1 {
+    position: relative;
+    top: 2rem;
+    padding: 0rem 0rem;  /* Spacing H x W */
+}
+  /* Button Group Paragraph */
+#btnparagraph1 {
+    position: relative;
+    padding: 2rem 0rem;  /* Spacing H x W */
+}
+  /* Button Group Box */
+#thebrainsonggrp {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: .2rem;
+}
+  /* The Brain Song Button */
+#btn1 {
+    position: relative;
+    text-wrap: calc();
+    padding: 5rem 5rem;  /* Image Size H x W */
+    border: solid .50rem rgb(165, 165, 165);
+    border-radius: 2rem;
+    background-image: url("thebrainsong.webp");
+    background-size: cover;
+    cursor: pointer;
+}
+#btn1:hover {
+    border: solid .60rem rgb(63, 63, 63);
+    background-color: rgb(119, 119, 119);
+}
+
+  /* Neuro Serge Button */
+#btn2 {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    padding: 5rem 5rem;  /* Image Size */
+    border-radius: 2rem;
+    border: solid .50rem rgb(165, 165, 165);
+    background-image: url("neuroserge.png");
+    background-size: cover;
+    cursor: pointer;
+}
+#btn2:hover {
+    border: solid .60rem rgb(63, 63, 63);
+    background-color: rgb(119, 119, 119);
+}
+
+  /* Neuro Prime Button */
+#btn3 {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    padding: 5rem 5rem;  /* Image Size */
+    border-radius: 2rem;
+    border: solid .50rem rgb(165, 165, 165);
+    background-image: url("neuroprime.avif");
+    background-size: cover;
+    cursor: pointer;
+}
+#btn3:hover {
+    border: solid .60rem rgb(63, 63, 63);
+    background-color: rgb(119, 119, 119);
+}
+
+                   /* Weight Loss Button Styles */
+
+  /* Button Group Subtitle */
+#btnsubtitle3 {
+    position: relative;
+    top: 0rem;
+    padding: 0rem 0rem;  /* Spacing H x W */
+}
+  /* Button Group Paragraph */
+#btnparagraph3 {
+    position: relative;
+    padding: 0rem 0rem;  /* Spacing H x W */
+}
+  /* Button Group Box */
+#weightlossgrp {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: .2rem;
+}
+  /* VivaSlim Button */
+#btn6 {
+    position: relative;
+    text-wrap: calc();
+    padding: 5rem 5rem;  /* Image Size H x W */
+    border: solid .50rem rgb(165, 165, 165);
+    border-radius: 2rem;
+    background-image: url("vivaslim.webp");
+    background-size: cover;
+    cursor: pointer;
+}
+#btn6:hover {
+    border: solid .60rem rgb(63, 63, 63);
+    background-color: rgb(119, 119, 119);
+}
+
+  /* Keyslim Button */
+#btn7 {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    padding: 5rem 5rem;  /* Image Size */
+    border-radius: 2rem;
+    border: solid .50rem rgb(165, 165, 165);
+    background-image: url("keyslim.png");
+    background-size: cover;
+    cursor: pointer;
+}
+#btn7:hover {
+    border: solid .60rem rgb(63, 63, 63);
+    background-color: rgb(119, 119, 119);
+}
+
+  /* Morning Fat Melter Button */
+#btn8 {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    padding: 5rem 5rem;  /* Image Size */
+    border-radius: 2rem;
+    border: solid .50rem rgb(165, 165, 165);
+    background-image: url("morningfatmelter.png");
+    background-size: cover;
+    cursor: pointer;
+}
+#btn8:hover {
+    border: solid .60rem rgb(63, 63, 63);
+    background-color: rgb(119, 119, 119);
+}
