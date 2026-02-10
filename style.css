@@ -12,10 +12,6 @@ html, body {
     margin: 0;
 }
 
-html {
-    height: 100%;
-}
-
 body {
    position: relative;
  /*  height: 100%; */
@@ -53,6 +49,7 @@ header nav a:hover {
 }
 
 main {
+    height: 100%;
     flex: 1;
    /* width: 100%; */
     margin-bottom: 30px;
@@ -451,6 +448,7 @@ p {
     border: solid .60rem rgb(63, 63, 63);
     background-color: rgb(119, 119, 119);
 }
+
 
 
 
