@@ -65,6 +65,7 @@ footer {
 }
 
                     /* Brain Health Button Styles */
+/*
 #homep {
     position: relative;
     top: 4rem;
@@ -87,7 +88,7 @@ p {
     width: 40rem;
     font-size: 1.2rem;
 }
-
+/* */
 #disclaimer {
     position: relative;
     top: 4rem;
@@ -446,6 +447,7 @@ p {
     border: solid .60rem rgb(63, 63, 63);
     background-color: rgb(119, 119, 119);
 }
+
 
 
 
