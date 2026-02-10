@@ -70,14 +70,14 @@ footer {
     top: 4rem;
    /* left: 24rem; */
    /* width: 40rem;  */
-    font-size: 0.95rem;
+    font-size: 14px;
 }
 
 #aboutusp {
     top: 4rem;
    /* left: 24rem; */
    /* width: 40rem; */
-    font-size: 0.95rem;
+    font-size: 14px;
 }
 
 p {
@@ -85,7 +85,7 @@ p {
     top: 4rem;
    /* left: 24rem; */
    /* width: 40rem; */
-    font-size: 0.95rem;
+    font-size: 14px;
 }
 /* */
 #disclaimer {
@@ -446,6 +446,7 @@ p {
     border: solid .60rem rgb(63, 63, 63);
     background-color: rgb(119, 119, 119);
 }
+
 
 
 
