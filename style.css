@@ -8,6 +8,7 @@
 
 html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
 }
 
@@ -54,7 +55,7 @@ footer {
     position: relative;
     background-color: #555555;
     color: rgb(196, 196, 196);
-  /*  padding: 10px; */
+    padding: 10px;
     text-align: center;
     font-size: 14px;
 }
@@ -441,4 +442,5 @@ p {
     border: solid .60rem rgb(63, 63, 63);
     background-color: rgb(119, 119, 119);
 }
+
 
