@@ -74,7 +74,7 @@ footer {
     transform: rotate(270deg);
     bottom: 45px;
     left: 10px;
-    border: .2px solid black;
+    border: 0.5px solid black;
     border-radius: 3px;
     width: 3.8rem;
     height: 3.8rem;
@@ -461,6 +461,7 @@ p {
     border: solid .60rem rgb(63, 63, 63);
     background-color: rgb(119, 119, 119);
 }
+
 
 
 
