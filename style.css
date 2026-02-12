@@ -76,8 +76,8 @@ footer {
     left: 10px;
     border: 0.5px solid black;
     border-radius: 10px;
-    width: 3.8rem;
-    height: 3.8rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 
@@ -461,6 +461,7 @@ p {
     border: solid .60rem rgb(63, 63, 63);
     background-color: rgb(119, 119, 119);
 }
+
 
 
 
