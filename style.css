@@ -72,10 +72,10 @@ footer {
 #logo {
     position: relative;
     transform: rotate(270deg);
-    top: 4px;
+    top: .25px;
     left: 10px;
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 
@@ -459,6 +459,7 @@ p {
     border: solid .60rem rgb(63, 63, 63);
     background-color: rgb(119, 119, 119);
 }
+
 
 
 
